@@ -1,2 +1,5 @@
-# ahk
-Auto Hot Key scripts - Boost your work !
+# [ahk](https://github.com/kyshel/ahk)
+Auto Hot Key scripts
+
+# Credit
+[Kyshel](https://github.com/kyshel)

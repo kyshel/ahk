@@ -23,14 +23,17 @@ st_save(){
 
 putty_run(){
 	;win_title = ahk_class Chrome_WidgetWin_1
-	;win_title = 64.138_toy
-	win_title = ahk_class PuTTY
+	win_title = cyg
+	;win_title = ahk_class PuTTY
 
 	IfWinExist, %win_title%
 	{
 		WinActivate, %win_title%
 		;send,{F5}
-		send,p a.py {enter}
+		;send,p ~/oie/a.py {enter}
+		;send,./run.sh {enter}
+		;send,g{+}{+} ~/pro_hi/src_hi.cpp && ~/pro_hi/a.exe {enter}
+		send,~/ahk.sh {enter}
 		WinActivate, ahk_class PX_WINDOW_CLASS
 	    
 	}else{
