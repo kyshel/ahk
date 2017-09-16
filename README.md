@@ -1,5 +1,5 @@
 # [ahk](https://github.com/kyshel/ahk)
 Auto Hot Key scripts
 
-# Credit
+## Credit
 [Kyshel](https://github.com/kyshel)
