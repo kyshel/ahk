@@ -1,0 +1,3 @@
+^SPACE::
+
+Winset, Alwaysontop,,A
