@@ -12,9 +12,9 @@ Pause::Pause
 #Include capture.ahk
 #Include close_sametype_windows.ahk
 
-; key lists
 
-f5 in navicat
-f5, mouse_middle in st3
-!q,!w,!e,!a,!x,^{space},^!w in global
+; # key lists
+; f5 in navicat
+; f5, mouse_middle in st3
+; !q,!w,!e,!a,!x,^{space},^!w in global
 
