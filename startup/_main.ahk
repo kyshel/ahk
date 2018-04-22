@@ -9,3 +9,5 @@ Pause::Pause
 #Include navicat_f5.ahk
 #Include f5_firefox_hackbar.ahk
 #Include always_ontop.ahk
+; 180422
+#Include capture.ahk
