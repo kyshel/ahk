@@ -1,6 +1,8 @@
 FileEncoding , UTF-8
 
+ScrollLock::Suspend
 Pause::Pause
+
 #x::ExitApp 
 
 #Include st_f5_python.ahk
@@ -12,6 +14,7 @@ Pause::Pause
 #Include capture.ahk
 #Include close_sametype_windows.ahk
 
+return
 
 ; # key lists
 ; f5 in navicat
