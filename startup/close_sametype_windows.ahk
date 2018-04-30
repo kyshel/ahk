@@ -4,6 +4,11 @@ WinGetClass, soft_class, A
 
 check(soft_class)
 
+
+
+
+
+
 return
 
 
@@ -23,20 +28,10 @@ check(the_class){
 }
 
 run_common(common_class){
-	loop,20
-	{
-
-		IfWinExist, ahk_class %common_class%
-		{
-			WinClose, ahk_class %common_class%
-			Sleep, 50
-		}
-		Else
-		{
-			break
-		}
-
-	}
+	StringReplace grp, common_class, %A_Space%, _ , All
+	GroupAdd %grp%, ahk_class %common_class%
+	WinClose ahk_group %grp%
+	return
 }
 
 run_putty(special_class){

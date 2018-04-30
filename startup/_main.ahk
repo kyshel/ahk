@@ -13,6 +13,8 @@ Pause::Pause
 #Include always_ontop.ahk
 #Include capture.ahk
 #Include close_sametype_windows.ahk
+#Include alt_e_everything.ahk
+#Include alt_v_vmvare.ahk
 
 return
 

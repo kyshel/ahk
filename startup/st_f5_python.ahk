@@ -23,7 +23,7 @@ st_save(){
 
 putty_run(){
 	;win_title = ahk_class Chrome_WidgetWin_1
-	win_title = m_e_t_a_lab
+	win_title = meta_lab
 	;win_title = ahk_class PuTTY
 
 	IfWinExist, %win_title%
