@@ -33,7 +33,9 @@ putty_run(){
 		;send,p ~/oie/a.py {enter}
 		;send,./run.sh {enter}
 		;send,g{+}{+} ~/pro_hi/src_hi.cpp && ~/pro_hi/a.exe {enter}
-		send,p a.py {enter}
+		send,{up}
+		sleep,50
+		send,{enter}
 		;WinActivate, ahk_class PX_WINDOW_CLASS
 	    
 	}else{

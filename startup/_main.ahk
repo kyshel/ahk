@@ -1,4 +1,5 @@
 FileEncoding , UTF-8
+SetTitleMatchMode 2
 
 ScrollLock::Suspend
 Pause::Pause
@@ -15,6 +16,7 @@ Pause::Pause
 #Include close_sametype_windows.ahk
 #Include alt_e_everything.ahk
 #Include alt_v_vmvare.ahk
+#Include f5_f6_pycharm.ahk
 
 return
 
