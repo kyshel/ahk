@@ -12,7 +12,6 @@ Pause::Pause
 #Include navicat_f5.ahk
 #Include f5_firefox_hackbar.ahk
 #Include always_ontop.ahk
-#Include capture.ahk
 #Include close_sametype_windows.ahk
 #Include alt_e_everything.ahk
 #Include alt_v_vmvare.ahk
